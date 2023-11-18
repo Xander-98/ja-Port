@@ -3,14 +3,23 @@ import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import EmailIcon from "@material-ui/icons/Email";
 import GithubIcon from "@material-ui/icons/GitHub";
 import "../styles/Home.css";
-
+import TypeWriter from "typewriter-effect";
 function Home() {
   return (
     <div className="home">
       <div className="about">
-        <h2> Hi, My Name is James</h2>
+        <h2>
+          <TypeWriter
+            options={{
+              strings: ["My name is James Alexander", "and", "I love Coding!", "Thanks for visiting the Site!"],
+              autoStart: true,
+              pause: 5,
+              loop: true,
+            }}
+          />
+        </h2>
         <div className="prompt">
-          <p>A software developer with a passion for learning and creating.</p>
+          <p>A software developer with a passion for designing, learning, and problem solving. </p>
           <LinkedInIcon />
           <EmailIcon />
           <GithubIcon />
