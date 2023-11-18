@@ -8,13 +8,22 @@ function Home() {
   return (
     <div className="home">
       <div className="about">
-        <h1>
-          <img src=""></img>
-        </h1>
+        <div>
+          <img
+            src="https://media.licdn.com/dms/image/D5603AQEjCVTMtK4fgg/profile-displayphoto-shrink_400_400/0/1697158640154?e=1705536000&v=beta&t=S534bLrrhUFKTL6Wz9k2RUONYQkhp9xJT129XHgO0pY"
+            alt="me"
+          ></img>
+        </div>
         <h2>
           <TypeWriter
             options={{
-              strings: ["My name is James Alexander", "and", "I love Coding!", "Thanks for visiting!"],
+              strings: [
+                "Hi! My name is James Alexander",
+                "and",
+                "I love Coding!",
+                "Thanks for visiting!",
+                "Just Keep Swimming🐟",
+              ],
               autoStart: true,
               pause: 5,
               loop: true,
