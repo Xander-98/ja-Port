@@ -4,13 +4,16 @@ import EmailIcon from "@material-ui/icons/Email";
 import GithubIcon from "@material-ui/icons/GitHub";
 import "../styles/Home.css";
 import TypeWriter from "typewriter-effect";
+import Link from "@material-ui/core/Link";
+
 function Home() {
   return (
     <div className="home">
       <div className="about">
         <div>
           <img
-            src="https://media.licdn.com/dms/image/D5603AQEjCVTMtK4fgg/profile-displayphoto-shrink_400_400/0/1697158640154?e=1705536000&v=beta&t=S534bLrrhUFKTL6Wz9k2RUONYQkhp9xJT129XHgO0pY"
+            className="self"
+            src="https://media.licdn.com/dms/image/D4E03AQGzmi3g83QO5g/profile-displayphoto-shrink_800_800/0/1700346590037?e=1705536000&v=beta&t=iHL-jVXya8UQcjCQVCMBFlUts8MzJv6Jm52eV48WLMw"
             alt="me"
           ></img>
         </div>
@@ -34,7 +37,9 @@ function Home() {
           <p>A software developer with a passion for designing, learning, and problem solving. </p>
           <LinkedInIcon />
           <EmailIcon />
-          <GithubIcon />
+          <Link href="https://github.com/Xander-98?tab=repositories" className="gitHub">
+            <GithubIcon />{" "}
+          </Link>
         </div>
       </div>
       <div className="skills">
