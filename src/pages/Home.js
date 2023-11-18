@@ -35,9 +35,17 @@ function Home() {
         </h2>
         <div className="prompt">
           <p>A software developer with a passion for designing, learning, and problem solving. </p>
-          <LinkedInIcon />
-          <EmailIcon />
-          <Link href="https://github.com/Xander-98?tab=repositories" className="gitHub">
+          <Link
+            href="https://www.linkedin.com/in/jamesalexander98?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BXSCvz%2FdxRoWBH02lauGpYA%3D%3D"
+            className="linkedinHomeLink"
+          >
+            <LinkedInIcon />
+            {""}
+          </Link>{" "}
+          <Link href="mailto:jaymealexander.12@gmail.com" className="emailLink">
+            <EmailIcon />
+          </Link>
+          <Link href="https://github.com/Xander-98" className="gitHubLink">
             <GithubIcon />{" "}
           </Link>
         </div>
