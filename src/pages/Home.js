@@ -8,10 +8,13 @@ function Home() {
   return (
     <div className="home">
       <div className="about">
+        <h1>
+          <img src=""></img>
+        </h1>
         <h2>
           <TypeWriter
             options={{
-              strings: ["My name is James Alexander", "and", "I love Coding!", "Thanks for visiting the Site!"],
+              strings: ["My name is James Alexander", "and", "I love Coding!", "Thanks for visiting!"],
               autoStart: true,
               pause: 5,
               loop: true,
