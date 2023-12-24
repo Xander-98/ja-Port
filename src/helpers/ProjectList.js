@@ -6,6 +6,7 @@ export const ProjectList = [
     name: "Out of Stock",
     image: Utube,
     skills: "Web Design",
+    link: "https://utuube.netlify.app/",
   },
   {
     name: "Out of Stock",
