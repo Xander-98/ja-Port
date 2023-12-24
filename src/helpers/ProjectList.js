@@ -1,9 +1,10 @@
 import Proj1 from "../assets/proj1.jpeg";
+import Utube from "../assets/utube.png";
 
 export const ProjectList = [
   {
     name: "Out of Stock",
-    image: Proj1,
+    image: Utube,
     skills: "Web Design",
   },
   {
