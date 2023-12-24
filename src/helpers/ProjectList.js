@@ -3,7 +3,7 @@ import Utube from "../assets/utube.png";
 
 export const ProjectList = [
   {
-    name: "Out of Stock",
+    name: "Utuube (youtube clone",
     image: Utube,
     skills: "Web Design",
     link: "https://utuube.netlify.app/",
